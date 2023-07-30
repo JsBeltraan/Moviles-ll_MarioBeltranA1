@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_ultra"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/TitleTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Ringstone" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/button_playshort"
+            style="@style/ButtonStyle"
+            android:background="#FFFFFF"
+            android:onClick="onButtonClick"
+            android:tag="playshort"
+            android:text="SonidoCorto" />
+
+        <Button
+            android:id="@+id/button_desc1"
+            style="@style/ButtonStyle"
+            android:layout_marginStart="16dp"
+            android:background="@android:drawable/stat_sys_download"
+            android:onClick="onButtonClick"
+            android:tag="d1" />
+
+        <Button
+            android:id="@+id/share1"
+            style="@style/ButtonStyle"
+            android:layout_marginStart="16dp"
+            android:background="@android:drawable/ic_menu_share"
+            android:onClick="onButtonClick"
+            android:tag="s1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/button_playlong"
+            style="@style/ButtonStyle"
+            android:onClick="onButtonClick"
+            android:tag="playlong"
+            android:text="SonidoLargo" />
+
+        <Button
+            android:id="@+id/button_desc2"
+            style="@style/ButtonStyle"
+            android:layout_marginStart="16dp"
+            android:background="@android:drawable/stat_sys_download"
+            android:onClick="onButtonClick"
+            android:tag="d2"/>
+
+        <Button
+            android:id="@+id/share2"
+            style="@style/ButtonStyle"
+            android:layout_marginStart="16dp"
+            android:background="@android:drawable/ic_menu_share"
+            android:onClick="onButtonClick"
+            android:tag="s2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/button_play3"
+            style="@style/ButtonStyle"
+            android:onClick="onButtonClick"
+            android:tag="play3"
+            android:text="TUBERIA" />
+
+        <Button
+            android:id="@+id/button_desc3"
+            style="@style/ButtonStyle"
+            android:layout_marginStart="16dp"
+            android:background="@android:drawable/stat_sys_download"
+            android:onClick="onButtonClick"
+            android:tag="d3"
+            android:text="" />
+
+        <Button
+            android:id="@+id/share3"
+            style="@style/ButtonStyle"
+            android:layout_marginStart="16dp"
+            android:background="@android:drawable/ic_menu_share"
+            android:onClick="onButtonClick"
+            android:tag="s3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/button_play4"
+            style="@style/ButtonStyle"
+            android:onClick="onButtonClick"
+            android:tag="play4"
+            android:text="VIDA" />
+
+        <Button
+            android:id="@+id/button_desc4"
+            style="@style/ButtonStyle"
+            android:layout_marginStart="16dp"
+            android:background="@android:drawable/stat_sys_download"
+            android:onClick="onButtonClick"
+            android:tag="d4"
+            android:text="" />
+
+        <Button
+            android:id="@+id/share4"
+            style="@style/ButtonStyle"
+            android:layout_marginStart="16dp"
+            android:background="@android:drawable/ic_menu_share"
+            android:onClick="onButtonClick"
+            android:tag="s4" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/button_play5"
+            style="@style/ButtonStyle"
+            android:onClick="onButtonClick"
+            android:tag="play5"
+            android:text="DIE" />
+
+        <Button
+            android:id="@+id/button_desc5"
+            style="@style/ButtonStyle"
+            android:layout_marginStart="16dp"
+            android:background="@android:drawable/stat_sys_download"
+            android:onClick="onButtonClick"
+            android:tag="d5"
+            android:text="" />
+
+        <Button
+            android:id="@+id/share5"
+            style="@style/ButtonStyle"
+            android:layout_marginStart="16dp"
+            android:background="@android:drawable/ic_menu_share"
+            android:onClick="onButtonClick"
+            android:tag="s5" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/button_play6"
+            style="@style/ButtonStyle"
+            android:onClick="onButtonClick"
+            android:tag="play6"
+            android:text="COIN" />
+
+        <Button
+            android:id="@+id/button_desc6"
+            style="@style/ButtonStyle"
+            android:layout_marginStart="16dp"
+            android:background="@android:drawable/stat_sys_download"
+            android:onClick="onButtonClick"
+            android:tag="d6"
+            android:text="" />
+
+        <Button
+            android:id="@+id/share6"
+            style="@style/ButtonStyle"
+            android:layout_marginStart="16dp"
+            android:background="@android:drawable/ic_menu_share"
+            android:onClick="onButtonClick"
+            android:tag="s6" />
+
+    </LinearLayout>
+
+</LinearLayout>
